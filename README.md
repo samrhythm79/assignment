@@ -102,17 +102,16 @@ Analyze and interpret global earthquake data to:
 earthquake-analysis/
 │
 ├── 01_data_retrieval.py          # API data fetching
-├── 02_data_preprocessing.py      # Data cleaning & transformation
-├── 03_database_setup.py          # MySQL setup & loading
-├── 04_sql_analysis.sql           # Analytical SQL queries
-├── 05_streamlit_dashboard.py    # Interactive dashboard
+├── 
+├── 02_database_setup.py          # MySQL setup & loading
+├── 03_sql_analysis.sql           # Analytical SQL queries
+├── 04_streamlit_dashboard.py    # Interactive dashboard
 │
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
 │
 ├── data/                         # Data directory
-│   ├── earthquake_raw_data.csv
-│   └── earthquake_cleaned_data.csv
+│   ├── earthquakes.csv
 │
 └── outputs/                      # Analysis outputs
     ├── visualizations/
@@ -370,19 +369,6 @@ LIMIT 5;
 
 ---
 
-## 👥 Contributors
-
-- Data Analytics Team
-- Project Lead: [Your Name]
-- Date: January 2026
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see LICENSE file for details.
-
----
 
 ## 🤝 Contributing
 
@@ -397,8 +383,7 @@ Contributions are welcome! Please:
 
 ## 📧 Contact
 
-For questions or suggestions:
-- Email: analytics@example.com
+
 - GitHub Issues: [Project Issues](https://github.com/yourusername/earthquake-analysis/issues)
 
 ---
